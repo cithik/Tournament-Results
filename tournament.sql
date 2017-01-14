@@ -4,7 +4,7 @@
 
 -- Drop database if exists
 DROP DATABASE IF EXISTS tournament;
-CREATE database tournament;
+CREATE DATABASE tournament;
 
 -- Connect to the database tournament
 \c tournament;
