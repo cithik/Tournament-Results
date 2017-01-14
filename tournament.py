@@ -4,6 +4,7 @@
 #
 
 import psycopg2
+import bleach
 
 
 def connect():
@@ -53,11 +54,14 @@ def registerPlayer(name):
   
     Args:
       name: the player's full name (need not be unique).
+
+       Use bleach.clean() for HTML sanitization.
     """
+    bleached_name = bleach.clean(name, strip=True)
     db = connect()
     db_cursor = db.cursor()
     query = "INSERT INTO players(name) VALUES(%s)"
-    db_cursor.execute("INSERT INTO players(name) VALUES(%s)", (name,))
+    db_cursor.execute(query, (bleached_name,))
     db.commit()
     db.close()
 
@@ -84,8 +88,6 @@ def playerStandings():
     return standings
 
 
-
-
 def reportMatch(winner, loser):
     """Records the outcome of a single match between two players.
 
@@ -93,8 +95,15 @@ def reportMatch(winner, loser):
       winner:  the id number of the player who won
       loser:  the id number of the player who lost
     """
- 
- 
+
+    db = connect()
+    db_cursor = db.cursor()
+    query = "INSERT INTO matches(winner,loser) VALUES(%s, %s)"
+    db_cursor.execute(query, (winner, loser,))
+    db.commit()
+    db.close()
+
+
 def swissPairings():
     """Returns a list of pairs of players for the next round of a match.
   
@@ -110,5 +119,11 @@ def swissPairings():
         id2: the second player's unique id
         name2: the second player's name
     """
-
+    db = connect()
+    db_cursor = db.cursor()
+    query = "SELECT * FROM pairs"
+    db_cursor.execute(query)
+    pairs = db_cursor.fetchall()
+    db.close()
+    return pairs
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09af0d51-44dc-47be-bbc1-75adf2b7e5ff" name="Default" comment="" />
+    <list default="true" id="09af0d51-44dc-47be-bbc1-75adf2b7e5ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tournament_script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.py" afterPath="$PROJECT_DIR$/tournament.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.sql" afterPath="$PROJECT_DIR$/tournament.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament_test.py" afterPath="$PROJECT_DIR$/tournament_test.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,23 +21,47 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <marker date="1483750053000" expanded="true" signature="392:411" ph="DELETE FROM " />
-                <marker date="1483750053000" expanded="true" signature="615:634" ph="DELETE FROM " />
-                <marker date="1483750053000" expanded="true" signature="840:876" ph="SELECT COUNT... players" />
-                <marker date="1483750053000" expanded="true" signature="1395:1431" ph="INSERT INTO players... " />
-                <marker date="1483750053000" expanded="true" signature="1456:1492" ph="INSERT INTO players... " />
-                <marker date="1483750053000" expanded="true" signature="1456:1503" ph="INSERT INTO players... " />
-                <marker date="1483750053000" expanded="true" signature="2159:2182" ph="SELECT * FRO... standings" />
+                <element signature="e#91#106#0" expanded="true" />
+                <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+                <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+                <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+                <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+                <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+                <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+                <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+                <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+                <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -36,8 +69,8 @@
       <file leaf-file-name="tournament.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="915">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,27 +79,45 @@
       <file leaf-file-name="tournament_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="939">
-              <caret line="153" column="18" lean-forward="false" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="tournament_script.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tournament_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1484361592000" expanded="true" signature="518:556" ph="INSERT INTO players... " />
+                <marker date="1484361592000" expanded="true" signature="518:566" ph="INSERT INTO players... " />
+                <marker date="1484361592000" expanded="true" signature="518:567" ph="INSERT INTO players... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testCount</find>
+      <find>testDelete</find>
+      <find>test</find>
+      <find>registerPlayerUpdated</find>
+      <find>standings</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,8 +125,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tournament.py" />
         <option value="$PROJECT_DIR$/tournament_test.py" />
+        <option value="$PROJECT_DIR$/tournament_script.py" />
+        <option value="$PROJECT_DIR$/tournament.py" />
+        <option value="$PROJECT_DIR$/tournament.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -89,6 +143,40 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -113,14 +201,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tournament-Results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Tournament-Results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,6 +227,8 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -223,6 +323,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -371,16 +477,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.035541195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16962843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5061947" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.49380532" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.49380532" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -406,16 +512,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="1770">
+          <caret line="118" column="32" lean-forward="false" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
           <folding>
-            <marker date="1483750053000" expanded="true" signature="392:411" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="615:634" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="840:876" ph="SELECT COUNT... players" />
-            <marker date="1483750053000" expanded="true" signature="1395:1431" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1492" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1503" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="2159:2182" ph="SELECT * FRO... standings" />
+            <element signature="e#91#106#0" expanded="true" />
+            <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+            <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+            <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
           </folding>
         </state>
       </provider>
@@ -428,37 +537,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tournament_test.py">
+    <entry file="file://$PROJECT_DIR$/tournament_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="465">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1484361592000" expanded="true" signature="518:556" ph="INSERT INTO players... " />
+            <marker date="1484361592000" expanded="true" signature="518:566" ph="INSERT INTO players... " />
+            <marker date="1484361592000" expanded="true" signature="518:567" ph="INSERT INTO players... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483750053000" expanded="true" signature="392:411" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="615:634" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="840:876" ph="SELECT COUNT... players" />
-            <marker date="1483750053000" expanded="true" signature="1395:1431" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1492" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1503" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="2159:2182" ph="SELECT * FRO... standings" />
+            <element signature="e#91#106#0" expanded="true" />
+            <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+            <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+            <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
           </folding>
         </state>
       </provider>
@@ -473,66 +579,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tournament.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tournament_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
+        <state relative-caret-position="2295">
           <caret line="153" column="18" lean-forward="false" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1483750053000" expanded="true" signature="392:411" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="615:634" ph="DELETE FROM " />
-            <marker date="1483750053000" expanded="true" signature="840:876" ph="SELECT COUNT... players" />
-            <marker date="1483750053000" expanded="true" signature="1395:1431" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1492" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="1456:1503" ph="INSERT INTO players... " />
-            <marker date="1483750053000" expanded="true" signature="2159:2182" ph="SELECT * FRO... standings" />
+            <element signature="e#91#106#0" expanded="true" />
+            <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+            <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+            <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#106#0" expanded="true" />
+            <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+            <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+            <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sMORF s JOIN standings s1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1484361592000" expanded="true" signature="518:556" ph="INSERT INTO players... " />
+            <marker date="1484361592000" expanded="true" signature="518:566" ph="INSERT INTO players... " />
+            <marker date="1484361592000" expanded="true" signature="518:567" ph="INSERT INTO players... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#106#0" expanded="true" />
+            <marker date="1484416564000" expanded="true" signature="406:425" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="629:648" ph="DELETE FROM " />
+            <marker date="1484416564000" expanded="true" signature="854:890" ph="SELECT COUNT... players" />
+            <marker date="1484416564000" expanded="true" signature="1510:1546" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="1593:1594" ph="INSERT INTO players... " />
+            <marker date="1484416564000" expanded="true" signature="2250:2257" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2250:2273" ph="SELECT * FRO... standings" />
+            <marker date="1484416564000" expanded="true" signature="2659:2707" ph="INSERT INTO matches... " />
+            <marker date="1484416564000" expanded="true" signature="3478:3497" ph="SELECT * FRO... pairs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
