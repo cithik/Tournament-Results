@@ -16,6 +16,7 @@ the_players=[
     (6, 'Mel')
 ]
 
+
 def registerPlayerUpdated(id, name):
     """Add a player to the tournament database.
 
