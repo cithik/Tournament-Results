@@ -14,6 +14,7 @@ same number of wins, or as close as possible.
 ----tournament.py        #file that contains the python functions which unit tests will run on
 ----tournament_test.py   #unit tests for tournament.py
 ----tournament.sql       #postgresql database
+---tournament_script.py  #creates dummy values for 6 players and 100 matches
 --Vagrantfile            #template that launches the Vagrant environment
 --pg_config.sh           #shell script provisioner called by Vagrantfile that performs
                           some configurations
